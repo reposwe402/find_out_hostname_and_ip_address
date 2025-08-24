@@ -1,13 +1,14 @@
-# importing socket library
-import socket
+from network_operations import resolve_hostname_to_ip
 
-def get_hostname_IP():
+def main():
     hostname = input("Please enter website address(URL):")
     try:
-        print (f'Hostname: {hostname}')
-        print (f'IP: {socket.gethostbyname(hostname)}')
-    except socket.gaierror as error:
-        print (f'Invalid Hostname, error raised is {error}')
+        print(f'Hostname: {hostname}')
+        ip_address = resolve_hostname_to_ip(hostname)
+        print(f'IP: {ip_address}')
+    except ValueError as error:
+        print(error)
 
-get_hostname_IP()
+if __name__ == "__main__":
+    main()
 

@@ -1,19 +1,15 @@
 # Get Ipaddress and Hostname of Website
-<!--Remove the below lines and add yours -->
-Get the ip address and hostname of a website
+This project allows you to retrieve the IP address of a given hostname using a simple Python script. The logic is modularized for clarity and maintainability.
 
 ### Prerequisites
-<!--Remove the below lines and add yours -->
-None
+- Python 3.x
 
 ### How to run the script
-<!--Remove the below lines and add yours -->
-Execute `python3 Hostname_IPaddress.py`
+1. Ensure you have Python 3 installed on your system.
+2. Run the script using the command: `python3 Hostname_IPaddress.py`
 
-### Screenshot/GIF showing the sample use of the script
-<!--Remove the below lines and add yours -->
+### Screenshot
 ![Screenshot of the Hostname_IPaddress.py file](Screenshot.png)
 
-## *Author Name*
-<!--Remove the below lines and add yours -->
+## Author
 [Nuh Mohammed](https://github.com/NuhMohammed)
